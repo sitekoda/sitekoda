@@ -1,0 +1,261 @@
+body { 
+font-family: Arial, sans-serif; 
+background: #121212; 
+color: white; 
+margin: 0; 
+padding-top: 140px; 
+}
+
+header {
+background: #1f1f1f;
+color: #e50914; /* Vermelho padrão de streaming */
+padding: 15px;
+text-align: center;
+border-bottom: 2px solid #e50914;
+
+/* Faz o cabeçalho fixar no topo */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+}
+
+header h1:hover {
+filter: brightness(1.2); /* Dá um brilho quando passa o mouse */
+}
+
+#logo-site {
+color: #e50914; /* O vermelho que você pediu */
+font-family: 'Arial Black', sans-serif; /* Uma fonte mais grossa e forte */
+font-size: 40px;
+margin: 0;
+padding-bottom: 10px;
+cursor: pointer;
+letter-spacing: 2px;
+}
+
+.search-container input {
+width: 80%;
+padding: 12px;
+border-radius: 5px;
+border: 1px solid #333; /* Borda discreta */
+background: #2a2a2a;    /* Fundo cinza escuro */
+color: white;           /* Texto branco para leitura */
+}
+
+/* Opcional: muda a cor do texto de exemplo (placeholder) */
+.search-container input::placeholder {
+color: #888;
+}
+
+/* Muda a cor da borda quando você clica para digitar */
+.search-container input:focus {
+outline: none;
+border-color: #e50914;
+}
+
+.filtro-abc { 
+display: flex; 
+flex-wrap: wrap; 
+justify-content: center; 
+padding: 10px; 
+background: #181818; 
+}
+
+.filtro-abc button {
+background: none; 
+border: none; 
+color: white; 
+margin: 5px; 
+cursor: pointer; 
+font-weight: bold; 
+}
+
+.filtro-abc button:hover { 
+color: #e50914; 
+}
+
+#conteudo-principal { 
+padding: 20px; 
+display: flex; 
+flex-wrap: wrap; 
+justify-content: center; 
+min-height: 70vh; 
+}
+
+.card-anime {
+width: 150px; 
+margin: 10px; 
+cursor: pointer; 
+transition: 0.3s; 
+text-align: center; 
+}
+
+.card-anime:hover { 
+transform: scale(1.1); 
+}
+
+.card-anime img { 
+width: 100%; 
+border-radius: 8px; 
+height: 210px; 
+object-fit: cover; 
+}
+
+.lista-episodios { 
+width: 100%; 
+max-width: 800px; 
+}
+
+.item-ep { 
+background: #222; 
+padding: 15px; 
+margin: 5px; 
+border-radius: 5px; 
+cursor: pointer; 
+}
+
+.item-ep:hover { 
+background: #333; 
+}
+
+.player-container iframe { 
+width: 100%; 
+height: 450px; 
+border: none; 
+}
+
+footer { 
+background: #1f1f1f; 
+text-align: center; 
+padding: 20px; 
+font-size: 12px; 
+margin-top: 20px; 
+}
+
+.highlight-blue {
+color: #3498db; 
+text-decoration: none;
+font-size: 14px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.info-texto { flex: 1; min-width: 300px; }
+
+.nota-badge {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.detalhes-meta {
+    color: #bbb;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-temporada {
+    border-left: 4px solid #e50914;
+    padding-left: 10px;
+    margin: 20px 0 10px 0;
+    color: #fff;
+}
+
+.streaming-link {
+    display: inline-flex;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.streaming-link:hover {
+    background: #444;
+    transform: scale(1.05);
+}
+
+.streaming-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.player-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Mantém a proporção 16:9 (Widescreen) */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.controles-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.btn-player {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1; /* Faz os botões dividirem o espaço */
+    transition: 0.3s;
+}
+
+.btn-player:hover:not(:disabled) {
+    background: #b20710;
+}
+
+.btn-player:disabled {
+    background: #333;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.btn-meio {
+    background: #333;
+}
+

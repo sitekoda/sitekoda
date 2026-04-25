@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="favicon.png">
+    <title>Koda - Seu Catálogo de Animes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="logo-site" onclick="renderizarHome()" style="cursor:pointer">KODA</h1>
+        <div class="search-container">
+            <input type="text" id="inputBusca" placeholder="Pesquisar anime..." onkeyup="buscarAnime()">
+        </div>
+    </header>
+
+    <nav class="filtro-abc" id="filtroAbc"></nav>
+
+    <main id="conteudo-principal">
+        </main>
+
+    <footer>
+        <p>&copy; 2026 - Site sem fins lucrativos criado por fãs para fãs. - Não é um licenciador oficial.</p>
+        <p>Aviso: Este site não hospeda nenhum vídeo em seu servidor. Todo conteúdo é provido de terceiros não afiliados.</p>
+		<p>Conteúdo licenciado sob <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="highlight-blue">BY-NC-SA</a></p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
