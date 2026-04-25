@@ -22,7 +22,8 @@ const listaAnimes = [
 			{ n: "Episódio 08", url: "https://1a-1791.com/video/fww1/56/s8/2/g/O/k/k/gOkkz.aaa.mp4?u=0&b=0" },
 			{ n: "Episódio 09", url: "https://1a-1791.com/video/fww1/59/s8/2/u/O/k/k/uOkkz.aaa.mp4?u=0&b=0" },
 			{ n: "Episódio 10", url: "https://1a-1791.com/video/fww1/53/s8/2/A/O/k/k/AOkkz.aaa.mp4?u=0&b=0" },
-			{ n: "Episódio 11", url: "https://1a-1791.com/video/fwe2/35/s8/2/Y/m/V/l/YmVlz.aaa.mp4?u=0&b=0" }
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/fwe2/35/s8/2/Y/m/V/l/YmVlz.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/fwe2/35/s8/2/Y/m/V/l/YmVlz.aaa.mp4?u=0&b=0" }
         ]
     },
 	
