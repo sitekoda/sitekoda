@@ -1,5 +1,75 @@
 const listaAnimes = [
-	{
+	{ //6
+        id: 6,
+        titulo: "Sousou no Frieren 2",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1921/154528l.jpg",
+		nota: 8.91,
+        ano: 2026,
+        classificacao: "14+",
+        sinopse: "Após os acontecimentos do Exame para Magos de Primeira Classe, a maga élfica Frieren retoma sua jornada ao lado de Fern e do guerreiro Stark. Agora com acesso ao perigoso Platô do Norte, o grupo segue viagem rumo a Aureole, enfrentando inimigos cada vez mais poderosos e desafios que testam não apenas suas habilidades, mas também suas convicções. Enquanto Stark precisa encarar suas próprias inseguranças para assumir plenamente seu papel como defensor da equipe, Fern continua valorizando as pequenas coisas e as pessoas que marcaram sua vida. Já Frieren, fiel à promessa de compreender melhor os humanos, revisita memórias de sua antiga jornada ao lado do grupo do herói e reflete sobre o passar do tempo.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GG5H5XQX4", // Link oficial
+        temporada: "Temporada 2",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/fww1/bc/s8/2/W/7/S/5/W7S5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/fwe2/ea/s8/2/q/9/S/5/q9S5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/fwe2/d5/s8/2/4/9/S/5/49S5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/fwe2/da/s8/2/4/f/T/5/4fT5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/fww1/e3/s8/2/U/f/T/5/UfT5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/fww1/d8/s8/2/y/q/T/5/yqT5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/fwe2/d6/s8/2/W/T/T/5/WTT5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/fwe2/1e/s8/2/Q/8/5/7/Q857z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/fwe2/95/s8/2/G/a/s/-/Gas-z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/fwe2/fa/s8/2/C/-/f/b/C-fbA.aaa.mp4?u=0&b=0" }
+        ]
+    },
+
+	{ //5
+        id: 5,
+        titulo: "Sousou no Frieren",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1015/138006l.jpg",
+		nota: 9.27,
+        ano: 2023,
+        classificacao: "14+",
+        sinopse: "Frieren é uma elfa que fez parte do grupo de heróis que derrotou o Rei Demônio. Após o final de anos de batalha, o grupo se desfez e cada um voltou para sua casa, mas, o tempo passa de forma diferentes para os elfos, e pouco a pouco Frieren viu seus companheiros morrem de velhice. Em um último encontro com Heiter, o sacerdote do grupo, Frieren recebe a missão de se tornar a mestre de sua discípula, a ajudando em sua jornada para coletar vários livros mágicos. Juntos, as duas viajam pelo mundo, visitando os lugares onde o grupo de heróis teve grandes confrontos, muitas vezes, fazendo com que Frieren tenha que lidar com seus arrependimentos antigos.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GG5H5XQX4", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/s8/2/i/0/P/z/i0Pzn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/s8/2/M/0/P/z/M0Pzn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/s8/2/j/_/P/z/j_Pzn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/s8/2/2/_/P/z/2_Pzn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/s8/2/S/j/Q/z/SjQzn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/s8/2/K/l/Q/z/KlQzn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/s8/2/R/l/r/F/RlrFn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/s8/2/F/-/2/Q/F-2Qn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/s8/2/H/W/0/Y/HW0Yn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/s8/2/s/_/v/u/s_vuo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/s8/2/_/_/v/u/__vuo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/s8/2/6/e/w/u/6ewuo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 13", url: "https://1a-1791.com/video/s8/2/v/N/L/Z/vNLZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 14", url: "https://1a-1791.com/video/s8/2/Y/N/L/Z/YNLZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 15", url: "https://1a-1791.com/video/s8/2/1/X/L/Z/1XLZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 16", url: "https://1a-1791.com/video/s8/2/v/Y/L/Z/vYLZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 17", url: "https://1a-1791.com/video/s8/2/e/o/g/9/eog9o.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 18", url: "https://1a-1791.com/video/s8/2/R/1/n/f/R1nfp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 19", url: "https://1a-1791.com/video/s8/2/H/j/e/o/Hjeop.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 20", url: "https://1a-1791.com/video/s8/2/Y/a/7/p/Ya7pt.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 21", url: "https://1a-1791.com/video/s8/2/-/s/j/I/-sjIp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 22", url: "https://1a-1791.com/video/s8/2/3/0/w/Q/30wQp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 23", url: "https://1a-1791.com/video/s8/2/D/i/m/0/Dim0p.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 24", url: "https://1a-1791.com/video/s8/2/H/f/x/-/Hfx-p.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 25", url: "https://1a-1791.com/video/s8/2/8/a/G/g/8aGgq.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 26", url: "https://1a-1791.com/video/s8/2/6/f/i/p/6fipq.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 27", url: "https://1a-1791.com/video/s8/2/f/o/0/1/fo01q.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 28", url: "https://1a-1791.com/video/s8/2/x/p/0/1/xp01q.haa.mp4?u=0&b=0" }
+        ]
+    },
+
+	{ //4
         id: 4,
         titulo: "Ore dake Level Up na Ken 2: Arise from the Shadow",
 		titulosAlt: ["Solo Leveling"],
@@ -28,7 +98,7 @@ const listaAnimes = [
         ]
     },
 	
-	{
+	{ //3
         id: 3,
         titulo: "Ore dake Level Up na Ken",
 		titulosAlt: ["Solo Leveling"],
@@ -56,7 +126,7 @@ const listaAnimes = [
         ]
     },
 	
-    {
+    { //2
         id: 2,
         titulo: "Kaijuu 8-gou 2",
 		titulosAlt: ["Kaiju No. 8"],
@@ -83,7 +153,7 @@ const listaAnimes = [
         ]
     },
 	
-	{
+	{ //1
         id: 1,
         titulo: "Kaijuu 8-gou",
 		titulosAlt: ["Kaiju No. 8"],
