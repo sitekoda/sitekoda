@@ -1,6 +1,6 @@
 const listaAnimes = [
 	{
-        id: 3,
+        id: 4,
         titulo: "Ore dake Level Up na Ken 2: Arise from the Shadow",
 		titulosAlt: ["Solo Leveling"],
         imagem: "https://myanimelist.net/images/anime/1448/147351.jpg",
