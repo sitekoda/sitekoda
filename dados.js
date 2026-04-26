@@ -1,4 +1,61 @@
 const listaAnimes = [
+	{
+        id: 3,
+        titulo: "Ore dake Level Up na Ken 2: Arise from the Shadow",
+		titulosAlt: ["Solo Leveling"],
+        imagem: "https://myanimelist.net/images/anime/1448/147351.jpg",
+		nota: 8.54,
+        ano: 2025,
+        classificacao: "16+",
+        sinopse: "Segunda temporada de Ore dake Level Up na Ken",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GDKHZEJ0K/solo-leveling?utm_campaign=media_actions&utm_medium=deep_link&utm_source=google", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/fwe1/4b/s8/2/C/F/T/n/CFTnw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/fwe1/8b/s8/2/1/M/d/D/1MdDw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/fwe2/8f/s8/2/W/n/_/S/Wn_Sw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/fwe2/0a/s8/2/C/B/I/9/CBI9w.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/fwe1/50/s8/2/2/4/M/n/24Mnx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/fwe2/eb/s8/2/B/q/0/E/Bq0Ex.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/fwe1/b2/s8/2/K/C/V/V/KCVVx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/fwe1/9d/s8/2/e/v/6/b/ev6by.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "	https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/530090.mp4?response-content-type=video/mp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1/20260426/auto/s3/aws4_request&X-Amz-Date=20260426T041633Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=36470961e235974aa1d6af8b33b8810a4bb402b00b5feea8af9c4569c87f1674" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/fwe1/ae/s8/2/c/-/U/q/c-Uqy.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/fww1/95/s8/2/8/D/_/s/8D_sy.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/fww1/09/s8/2/H/8/v/y/H8vyy.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 13", url: "https://1a-1791.com/video/fww1/d2/s8/2/Y/5/z/x/Y5zxy.aaa.mp4?u=0&b=0" }
+        ]
+    },
+	
+	{
+        id: 3,
+        titulo: "Ore dake Level Up na Ken",
+		titulosAlt: ["Solo Leveling"],
+        imagem: "https://myanimelist.net/images/anime/1801/142390.jpg",
+		nota: 8.16,
+        ano: 2024,
+        classificacao: "16+",
+        sinopse: "Dez anos atrás, “o Portão” apareceu e conectou o mundo real com o reino da magia e dos monstros. Para combater essas feras vis, pessoas comuns receberam poderes sobre-humanos e ficaram conhecidas como “Caçadores”. Sung Jin-Woo, de 20 anos, é um desses caçadores, mas é conhecido como o “Mais Fraco do Mundo”, devido ao seu poder patético em comparação até mesmo com um mísero E-Rank. Ainda assim, ele caça monstros incansavelmente em Gates de baixo escalão para pagar as contas médicas de sua mãe.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GDKHZEJ0K/solo-leveling?utm_campaign=media_actions&utm_medium=deep_link&utm_source=google", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/s8/2/L/0/S/-/L0S-o.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/s8/2/_/T/v/g/_Tvgp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/s8/2/C/S/s/p/CSspp.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/s8/2/x/I/P/y/xIPyp.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/s8/2/u/5/p/I/u5pIp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/s8/2/i/V/F/R/iVFRp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/s8/2/c/8/N/0/c8N0p.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/s8/2/8/W/G/g/8WGgq.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/s8/2/d/X/C/p/dXCpq.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/s8/2/T/l/9/1/Tl91q.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/s8/2/W/q/9/1/Wq91q.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/s8/2/f/r/9/1/fr91q.haa.mp4?u=0&b=0" }
+        ]
+    },
+	
     {
         id: 2,
         titulo: "Kaijuu 8-gou 2",
