@@ -1,4 +1,138 @@
 const listaAnimes = [
+	{ //10
+        id: 10,
+        titulo: "Kusuriya no Hitorigoto 2",
+		titulosAlt: ["The Apothecary Diaries, Diarios de uma Apotecaria"],
+        imagem: "https://myanimelist.net/images/anime/1025/147458l.jpg",
+		nota: 8.91,
+        ano: 2025,
+        classificacao: "14+",
+        sinopse: "Segunda temporada de Kusuriya no Hitorigoto. Maomao vivia tranquilamente com seu pai, um boticário, até ser vendida como serva para o palácio imperial. Apesar de sua nova posição humilde, sua vasta experiência em medicina logo chama atenção. Quando os herdeiros imperiais adoecem misteriosamente, Maomao decide investigar e encontra a cura. Sua habilidade atrai o olhar do charmoso oficial Jinshi, que a promove. Agora, como dama de companhia da concubina favorita do imperador, Maomao se destaca ao resolver mistérios médicos no palácio, tornando-se indispensável com seu conhecimento farmacêutico.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/G3KHEVDJ7/the-apothecary-diaries", // Link oficial
+        temporada: "Temporada 2",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/fwe1/ab/s8/2/_/D/s/C/_DsCw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/fwe2/30/s8/2/i/I/5/Q/iI5Qw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/fwe2/f8/s8/2/g/9/s/7/g9s7w.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/fwe1/f9/s8/2/V/5/t/l/V5tlx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/fwe2/70/s8/2/_/g/e/C/_geCx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/fwe2/e8/s8/2/u/l/t/T/ultTx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/fwe2/fd/s8/2/-/_/u/_/-_u_x.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/fwe1/e7/s8/2/e/X/7/n/eX7ny.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/fwe2/2f/s8/2/w/J/A/q/wJAqy.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/fww1/5a/s8/2/i/g/O/s/igOsy.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/fww1/cf/s8/2/u/M/o/x/uMoxy.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/531382.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052443Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=5892c31e8df9e415d1ae914534bb4cb637059aac3008010362464c23ef8727fe" },
+			{ n: "Episódio 13", url: "https://1a-1791.com/video/fww1/a8/s8/2/D/J/i/z/DJizy.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 14", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/531738.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052550Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=6044fa6f97a4f19ae0e07ac5aa17716f383d37f9123a1aceb8451b8c0ae0a13a" },
+			{ n: "Episódio 15", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/531860.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052626Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c9df97cf6e1fc8a4b294e79c77fe29e8317a7de34e4abdd7f0155ac42e9abac0" },
+			{ n: "Episódio 16", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/531938.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052655Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4dcdc0381f64f5fca64128d83c83c7b81dd6ccbef17c229c22c54a4f3d43f65e" },
+			{ n: "Episódio 17", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532026.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052714Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=f97e2f5bdd1e76c9ecedb49d76277a9646c725abe500fce29f9c87b71d319471" },
+			{ n: "Episódio 18", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532108.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052733Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3599&X-Amz-Signature=59aa3116f2de75ba7f827b124c4f7ac6dfbe956c6a041ee907935a47b23ab00f" },
+			{ n: "Episódio 19", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532259.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052751Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=a09f08905328d5f285632c1886f1634b1d72e52b4c6b82139caf115046177209" },
+			{ n: "Episódio 20", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532343.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052810Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=a9c9b9196c4df30b2fe2e0575c51851bd998a4b5a96e5591c76e0876cc194371" },
+			{ n: "Episódio 21", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532421.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052852Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=fef1ff37344ae6e8e8d4ca3b673af3be26dfc8b856c27efd89d7e8ff0cce2f3b" },
+			{ n: "Episódio 22", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532546.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T052929Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=b520ce423e5c4517d6639218f2e221cf1a0a8a207b2f6f77942d5ff66a7c5dac" },
+			{ n: "Episódio 23", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532718.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T053007Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=a6a5d9661738e3eac512a7a0447572c6a0b3cd66cc6d1e848ad35f0f5d9cf1f8" },
+			{ n: "Episódio 24", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/532768.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T053036Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=1a89eff38b56583ac9d1ca68ade0362df2d8374182f6b86ff02a7d1d8464400a" }
+        ]
+    },
+
+	{ //9
+        id: 9,
+        titulo: "Kusuriya no Hitorigoto",
+		titulosAlt: ["The Apothecary Diaries, Diarios de uma Apotecaria"],
+        imagem: "https://myanimelist.net/images/anime/1708/138033l.jpg",
+		nota: 8.85,
+        ano: 2023,
+        classificacao: "14+",
+        sinopse: "Na história de Kusuriya no Hitorigoto, você acompanha Maomao, uma farmacêutica que é vendida para o harém real de um imperador após ser sequestrada enquanto colhia ervas. Por mais que Maomao tente ficar nas sombras, sua sede de conhecimento e curiosidade acabam a levando a se envolver no salvamento do filho de uma das mais importantes pretendes do harém, fazendo assim com que ela comece a ganhar mais destaque entras as mulheres de lá, chamando a atenção de diferentes pessoas pelo seu conhecimento.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/G3KHEVDJ7/the-apothecary-diaries", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/s8/2/f/Z/J/G/fZJGn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/s8/2/Y/Z/J/G/YZJGn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/s8/2/p/4/J/G/p4JGn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/s8/2/t/B/l/Q/tBlQn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/s8/2/_/L/Z/Y/_LZYn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/281301.mp4?response-content-type=video/mp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1/20260427/auto/s3/aws4_request&X-Amz-Date=20260427T051039Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=bcfa26136241013d2a0510f8dfbd4c22a7e4058ed220478fbf5a0e6d10952f2d" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/s8/2/v/P/7/t/vP7to.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/s8/2/m/V/7/t/mV7to.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/s8/2/a/b/e/Z/abeZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/s8/2/F/b/e/Z/FbeZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/s8/2/C/j/e/Z/CjeZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/s8/2/1/j/e/Z/1jeZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 13", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/310053.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260427%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260427T051303Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c47bfe2ff6c7fd5ba8a7b15d7bc7eb172dba8eb8d41668d9732c72a912ae9561" },
+			{ n: "Episódio 14", url: "https://1a-1791.com/video/s8/2/l/l/w/g/llwgp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 15", url: "https://1a-1791.com/video/s8/2/i/t/y/p/itypp.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 16", url: "https://1a-1791.com/video/s8/2/N/2/W/y/N2Wyp.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 17", url: "https://1a-1791.com/video/s8/2/3/b/s/I/3bsIp.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 18", url: "https://1a-1791.com/video/s8/2/5/e/L/R/5eLRp.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 19", url: "https://1a-1791.com/video/s8/2/Q/n/O/0/QnO0p.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 20", url: "https://1a-1791.com/video/s8/2/d/y/z/-/dyz-p.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 21", url: "https://1a-1791.com/video/s8/2/Y/f/K/g/YfKgq.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 22", url: "https://1a-1791.com/video/s8/2/k/O/Q/p/kOQpq.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 23", url: "https://1a-1791.com/video/s8/2/W/X/-/1/WX-1q.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 24", url: "https://1a-1791.com/video/s8/2/_/X/-/1/_X-1q.haa.mp4?u=0&b=0" }
+        ]
+    },
+
+	{ //8
+        id: 8,
+        titulo: "Sakamoto Days Part 2",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1758/148719l.jpg",
+		nota: 7.91,
+        ano: 2025,
+        classificacao: "16+",
+        sinopse: "Tarou Sakamoto era o maior assassino de todos os tempos, temido por muitos no submundo do crime. No entanto, tudo mudou quando ele se apaixonou. Decidido a abandonar sua vida de crimes, Sakamoto agora leva uma vida tranquila como atendente de uma loja de conveniência. Porém, deixar o passado para trás não é tão fácil quanto parecia. Rivais e antigos parceiros não acreditam em sua aposentadoria e aparecem para desafiá-lo. Proibido de matar, Sakamoto precisa usar métodos criativos para derrotar seus inimigos e proteger sua família, sua loja e sua cidade.",
+		streamingNome: "Netflix", // Nome da plataforma
+        streamingUrl: "https://www.netflix.com/br/title/81663325", // Link oficial
+        temporada: "Temporada 1 Part 2",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/fww1/01/s8/2/O/b/n/6/Obn6y.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/fww1/37/s8/2/Y/b/n/6/Ybn6y.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/fww1/f4/s8/2/w/h/n/6/whn6y.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/fww1/96/s8/2/0/F/k/6/0Fk6y.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/fww1/5e/s8/2/y/v/N/-/yvN-y.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/fww1/d8/s8/2/A/t/N/-/AtN-y.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/fww1/f5/s8/2/w/-/z/a/w-zaz.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/fww1/2a/s8/2/I/_/o/c/I_ocz.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/fww1/02/s8/2/A/x/v/e/Axvez.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/fww1/88/s8/2/w/a/Y/k/waYkz.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/fww1/eb/s8/2/M/9/X/k/M9Xkz.aaa.mp4?u=0&b=0" }
+        ]
+    },
+
+	{ //7
+        id: 7,
+        titulo: "Sakamoto Days",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1026/146459l.jpg",
+		nota: 7.59,
+        ano: 2025,
+        classificacao: "14+",
+        sinopse: "Tarou Sakamoto era o maior assassino de todos os tempos, temido por muitos no submundo do crime. No entanto, tudo mudou quando ele se apaixonou. Decidido a abandonar sua vida de crimes, Sakamoto agora leva uma vida tranquila como atendente de uma loja de conveniência. Porém, deixar o passado para trás não é tão fácil quanto parecia. Rivais e antigos parceiros não acreditam em sua aposentadoria e aparecem para desafiá-lo. Proibido de matar, Sakamoto precisa usar métodos criativos para derrotar seus inimigos e proteger sua família, sua loja e sua cidade.",
+		streamingNome: "Netflix", // Nome da plataforma
+        streamingUrl: "https://www.netflix.com/br/title/81663325", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/fwe1/69/s8/2/g/l/5/C/gl5Cw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/fwe2/e5/s8/2/n/n/5/C/nn5Cw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/fwe1/5a/s8/2/I/l/O/S/IlOSw.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/fwe1/9d/s8/2/B/_/A/9/B_A9w.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/fwe2/8e/s8/2/h/8/y/n/h8ynx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/fwe2/b5/s8/2/r/k/l/E/rklEx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/fwe2/97/s8/2/0/w/z/V/0wzVx.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/fwe1/f6/s8/2/5/C/L/b/5CLby.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/fwe1/66/s8/2/s/n/p/o/snpoy.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/fww1/b3/s8/2/L/q/C/y/LqCyy.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/fww1/37/s8/2/P/q/C/y/PqCyy.aaa.mp4?u=0&b=0" }
+        ]
+    },
+	
 	{ //6
         id: 6,
         titulo: "Sousou no Frieren 2",
@@ -73,7 +207,7 @@ const listaAnimes = [
         id: 4,
         titulo: "Ore dake Level Up na Ken 2: Arise from the Shadow",
 		titulosAlt: ["Solo Leveling"],
-        imagem: "https://myanimelist.net/images/anime/1448/147351.jpg",
+        imagem: "https://myanimelist.net/images/anime/1448/147351l.jpg",
 		nota: 8.54,
         ano: 2025,
         classificacao: "16+",
@@ -102,7 +236,7 @@ const listaAnimes = [
         id: 3,
         titulo: "Ore dake Level Up na Ken",
 		titulosAlt: ["Solo Leveling"],
-        imagem: "https://myanimelist.net/images/anime/1801/142390.jpg",
+        imagem: "https://myanimelist.net/images/anime/1801/142390l.jpg",
 		nota: 8.16,
         ano: 2024,
         classificacao: "16+",
