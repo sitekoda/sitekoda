@@ -259,3 +259,24 @@ font-size: 14px;
     background: #333;
 }
 
+.paginacao-eps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Estilo para o episódio marcado como visto */
+.item-ep.visto {
+    opacity: 0.5;
+    border-left: 4px solid #2ecc71; /* Verde para indicar que já foi visto */
+    background: #1a1a1a;
+}
+
+.item-ep.visto::after {
+    content: " ✔";
+    color: #2ecc71;
+    float: right;
+    font-weight: bold;
+}

@@ -1,5 +1,7 @@
 const main = document.getElementById('conteudo-principal');
 const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const EPS_POR_PAGINA = 30;
+const QNT_HOME = 22;
 
 // Criar botões de A a Z
 const filtroDiv = document.getElementById('filtroAbc');
@@ -13,6 +15,10 @@ letras.forEach(letra => {
 // Função para mostrar os cards dos animes
 function renderizarAnimes(lista) {
     main.innerHTML = "";
+	if (lista.length === 0) {
+        main.innerHTML = "<p style='text-align:center; width:100%; margin-top:50px; color:#888;'>Nenhum anime encontrado.</p>";
+        return;
+    }
     lista.forEach(anime => {
         let card = document.createElement('div');
         card.className = "card-anime";
@@ -47,44 +53,61 @@ function buscarAnime() {
 }
 
 // Mostrar lista de episódios
-function mostrarEpisodios(id) {
+function mostrarEpisodios(id, paginaAtual = 0) {
     const anime = listaAnimes.find(a => a.id === id);
     
-    let corNota = "#ff4d4d";
-    if (anime.nota >= 7) corNota = "#2ecc71";
-    else if (anime.nota >= 5) corNota = "#f1c40f";
+    // Lógica da Paginação
+    const inicio = paginaAtual * EPS_POR_PAGINA;
+    const fim = inicio + EPS_POR_PAGINA;
+    const epsPaginados = anime.eps.slice(inicio, fim);
+    const totalPaginas = Math.ceil(anime.eps.length / EPS_POR_PAGINA);
+
+    let corNota = (anime.nota >= 7) ? "#2ecc71" : (anime.nota >= 5) ? "#f1c40f" : "#ff4d4d";
 
     main.innerHTML = `
         <div class="lista-episodios">
             <div class="info-container">
-                <img src="${anime.imagem}" style="width: 300px; border-radius: 10px;">
+                <img src="${anime.imagem}" alt="Capa">
                 <div class="info-texto">
                     <h1 style="color: #e50914; margin-top:0;">${anime.titulo}</h1>
                     <div class="nota-badge" style="color: ${corNota}">${anime.nota}</div>
-                    <div class="detalhes-meta">
-                        <span>📅 ${anime.ano}</span> | 
-                        <span>🔞 ${anime.classificacao}</span>
-                    </div>
+                    <div class="detalhes-meta"><span>📅 ${anime.ano}</span> | <span>🔞 ${anime.classificacao}</span></div>
                     <p><strong>Sinopse:</strong> ${anime.sinopse}</p>
-                    
                     <a href="${anime.streamingUrl}" target="_blank" class="streaming-link">
                         <img src="https://www.google.com/s2/favicons?sz=64&domain=${anime.streamingUrl}" class="streaming-icon">
-                        Disponível oficialmente em ${anime.streamingNome}
+                        Assistir no ${anime.streamingNome}
                     </a>
                 </div>
             </div>
 
-            <h3 class="subtitulo-temporada">${anime.temporada}</h3>
+            <h3 class="subtitulo-temporada">${anime.temporada} - Página ${paginaAtual + 1}</h3>
+            
             <div id="container-links-eps"></div>
+
+            <div class="paginacao-eps">
+                <button class="btn-player" ${paginaAtual === 0 ? 'disabled' : ''} 
+                    onclick="mostrarEpisodios(${id}, ${paginaAtual - 1})">⬅ Anterior</button>
+                
+                <span style="margin: 0 15px;">Página ${paginaAtual + 1} de ${totalPaginas}</span>
+                
+                <button class="btn-player" ${paginaAtual >= totalPaginas - 1 ? 'disabled' : ''} 
+                    onclick="mostrarEpisodios(${id}, ${paginaAtual + 1})">Próxima ➡</button>
+            </div>
         </div>
     `;
 
+	// Renderiza apenas a "fatia" de episódios daquela página
     const containerEps = document.getElementById('container-links-eps');
-    anime.eps.forEach((ep, index) => {
+    epsPaginados.forEach((ep, i) => {
+        let indexReal = inicio + i;
         let item = document.createElement('div');
-        item.className = "item-ep";
+        
+        // VERIFICA SE JÁ FOI VISTO
+        const jaVisto = estaVisto(anime.id, ep.n);
+        item.className = `item-ep ${jaVisto ? 'visto' : ''}`;
+        
         item.innerText = ep.n;
-        item.onclick = () => abrirPlayer(anime.id, index);
+        item.onclick = () => abrirPlayer(anime.id, indexReal);
         containerEps.appendChild(item);
     });
 
@@ -95,6 +118,9 @@ function mostrarEpisodios(id) {
 function abrirPlayer(animeId, epIndex) {
     const anime = listaAnimes.find(a => a.id === animeId);
     const epAtual = anime.eps[epIndex];
+	
+	// MARCA COMO VISTO ASSIM QUE ABRE O PLAYER
+    marcarComoVisto(animeId, epAtual.n);
 
     // Verifica se existe ep anterior ou próximo para desativar os botões se necessário
     const temAnterior = epIndex > 0;
@@ -124,12 +150,37 @@ function abrirPlayer(animeId, epIndex) {
                 </button>
             </div>
         </div>
+		
     `;
     window.scrollTo(0,0);
 }
 
+// Salva que o episódio foi visto
+function marcarComoVisto(animeId, epNome) {
+    let vistos = JSON.parse(localStorage.getItem('vistos')) || [];
+    const chave = `${animeId}-${epNome}`;
+    
+    if (!vistos.includes(chave)) {
+        vistos.push(chave);
+        localStorage.setItem('vistos', JSON.stringify(vistos));
+    }
+}
+
+// Verifica se o episódio já está na lista de vistos
+function estaVisto(animeId, epNome) {
+    let vistos = JSON.parse(localStorage.getItem('vistos')) || [];
+    return vistos.includes(`${animeId}-${epNome}`);
+}
+
 function renderizarHome() {
-    renderizarAnimes(listaAnimes);
+    // Pega apenas a quantidade definida (ex: os 20 primeiros do dados.js)
+    const selecionados = listaAnimes.slice(0, QNT_HOME);
+    
+    // Limpa o conteúdo principal completamente
+    main.innerHTML = "";
+    
+    // Renderiza os cards sem nenhum título ou texto extra
+    renderizarAnimes(selecionados);
 }
 
 // Iniciar o site
