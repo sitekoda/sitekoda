@@ -1,4 +1,112 @@
 const listaAnimes = [
+	{ //13
+        id: 13,
+        titulo: "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1659/154920l.jpg",
+		nota: 8.64,
+        ano: 2026,
+        classificacao: "16+",
+        sinopse: "Após o devastador Incidente de Shibuya, o mundo do jujutsu mergulha em um caos ainda maior. O misterioso feiticeiro Kenjaku dá início ao seu plano mais ambicioso: o Culling Game, um mortal jogo de sobrevivência espalhado por diversas colônias no Japão, onde feiticeiros modernos e antigos são forçados a lutar entre si até a morte. Carregando a culpa pelas tragédias de Shibuya e temendo a crescente influência de Sukuna sobre Megumi Fushiguro, Yuji Itadori decide não retornar à Escola Técnica de Jujutsu. Em vez disso, ele se une a Choso para enfrentar as inúmeras maldições liberadas pelo país.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen", // Link oficial
+        temporada: "Temporada 3",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/fwe2/ab/s8/2/y/a/C/5/yaC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/fwe2/2f/s8/2/k/a/C/5/kaC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/fww1/1a/s8/2/w/b/C/5/wbC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/fwe2/87/s8/2/S/b/C/5/SbC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/fwe2/a8/s8/2/Q/c/C/5/QcC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/fwe2/e4/s8/2/m/d/C/5/mdC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/fww1/20/s8/2/w/e/C/5/weC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/fww1/6f/s8/2/e/f/C/5/efC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/fww1/17/s8/2/g/g/C/5/ggC5z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/fwe2/68/s8/2/G/M/5/7/GM57z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/fww1/99/s8/2/k/G/r/-/kGr-z.aaa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/fwe2/0f/s8/2/s/K/e/b/sKebA.aaa.mp4?u=0&b=0" }
+        ]
+    },
+
+	{ //12
+        id: 12,
+        titulo: "Jujutsu Kaisen 2",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1792/138022l.jpg",
+		nota: 8.70,
+        ano: 2023,
+        classificacao: "16+",
+        sinopse: "Segunda temporada de Jujutsu Kaisen. Em 31 de outubro, uma cortina de repente cai ao redor da Estação de Shibuya, uma área repleta de pessoas comemorando o Halloween, e um grande número de civis fica preso. Gojo se aventura sozinho em Shibuya, mas (a situação era na verdade) uma armadilha montada por Geto, Mahito e outros espíritos amaldiçoados. Yuji Itadori, Megumi Fushiguro, Nobara Kugisaki, e os estudantes e feiticeiros do Colégio Jujutsu se reúnem em Shibuya e uma batalha de grande escala está prestes a se desenrolar. Uma história espetacular que gira em torno de maldições se inicia mais uma vez.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen", // Link oficial
+        temporada: "Temporada 2",
+        eps: [
+            { n: "Episódio 01", url: "https://1a-1791.com/video/s8/2/f/m/A/r/fmArn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://1a-1791.com/video/s8/2/J/m/A/r/JmArn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://1a-1791.com/video/s8/2/u/B/A/r/uBArn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://1a-1791.com/video/s8/2/J/B/A/r/JBArn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://1a-1791.com/video/s8/2/z/L/A/r/zLArn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://1a-1791.com/video/s8/2/K/M/A/r/KMArn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://1a-1791.com/video/s8/2/V/2/A/r/V2Arn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://1a-1791.com/video/s8/2/y/4/A/r/y4Arn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://1a-1791.com/video/s8/2/R/g/B/r/RgBrn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://1a-1791.com/video/s8/2/2/h/B/r/2hBrn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://1a-1791.com/video/s8/2/9/y/B/r/9yBrn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://1a-1791.com/video/s8/2/K/s/r/C/KsrCn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 13", url: "https://1a-1791.com/video/s8/2/d/s/9/D/ds9Dn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 14", url: "https://1a-1791.com/video/s8/2/A/w/2/Q/Aw2Qn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 15", url: "https://1a-1791.com/video/s8/2/k/j/Z/Y/kjZYn.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 16", url: "https://1a-1791.com/video/s8/2/R/O/G/Z/ROGZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 17", url: "https://1a-1791.com/video/s8/2/Z/O/G/Z/ZOGZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 18", url: "https://1a-1791.com/video/s8/2/J/W/G/Z/JWGZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 19", url: "https://1a-1791.com/video/s8/2/w/X/G/Z/wXGZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 20", url: "https://1a-1791.com/video/s8/2/6/9/F/Z/69FZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 21", url: "https://1a-1791.com/video/s8/2/v/_/F/Z/v_FZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 22", url: "https://1a-1791.com/video/s8/2/O/h/G/Z/OhGZo.haa.mp4?u=0&b=0" },
+			{ n: "Episódio 23", url: "https://1a-1791.com/video/s8/2/g/i/G/Z/giGZo.haa.mp4?u=0&b=0" }
+        ]
+    },
+
+	{ //11
+        id: 11,
+        titulo: "Jujutsu Kaisen",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1171/109222l.jpg",
+		nota: 8.51,
+        ano: 2020,
+        classificacao: "16+",
+        sinopse: "Yuji Itadori é um estudante do ensino médio com incríveis habilidades físicas, mas ele prefere passar seu tempo na escola ajudando no clube de ocultismo em vez de praticar esportes. No entanto, sua vida toma um rumo inesperado quando ele encontra um dedo amaldiçoado selado em um antigo pergaminho no porão da escola. Quando os membros do clube de ocultismo acidentalmente liberam a maldição, Yuji engole o dedo para proteger seus amigos, e assim, ele se torna o hospedeiro de Sukuna, um poderoso feiticeiro amaldiçoado. Agora, Yuji é arrastado para o mundo sombrio dos feiticeiros e maldições.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://video.wixstatic.com/video/6fb4f5_73c34c7659b1446cbab48cbcba9bebb8/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://video.wixstatic.com/video/6fb4f5_e84a91dada874ba9955f40447830a92f/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://video.wixstatic.com/video/6fb4f5_cb5ef9a691ff44b9870848c9a3321ee9/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://video.wixstatic.com/video/6fb4f5_b44088ac60ee46c1aef3260881466bb5/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://video.wixstatic.com/video/6fb4f5_cc7b3039e31349f3af99104b94d15d96/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://video.wixstatic.com/video/6fb4f5_7205e1415c36443a8bf7eb6925a89733/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://video.wixstatic.com/video/6fb4f5_fab7352cd268470b9206d8a0ac901ae1/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://video.wixstatic.com/video/6fb4f5_f8b799bf75a74c86a0d12480a151551d/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://video.wixstatic.com/video/6fb4f5_7bb3df27ff394778ac721fc87736a0ec/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://video.wixstatic.com/video/6fb4f5_48aea1f672ec46ae88c7e8f24b63b35c/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://video.wixstatic.com/video/6fb4f5_f4be40f5e6ab43769de207ed7680a1b9/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://video.wixstatic.com/video/6fb4f5_2de700578e1b48b890144477b55fc563/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 13", url: "https://video.wixstatic.com/video/6fb4f5_c03cd257d5394a8fabcf7ef33143f7c3/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 14", url: "https://video.wixstatic.com/video/6fb4f5_ce88cf5f7e0d4fab9b48770b47828c57/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 15", url: "https://video.wixstatic.com/video/6fb4f5_f8b063599b8b44c8a35135995837c3d2/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 16", url: "https://video.wixstatic.com/video/6fb4f5_b1456668d34a43b2b8e0e322084dd7c6/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 17", url: "https://video.wixstatic.com/video/6fb4f5_bd6e4d6a910b46ada8de746d69f78360/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 18", url: "https://video.wixstatic.com/video/6fb4f5_79b24eab44574a77899025c3e93e66ac/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 19", url: "https://video.wixstatic.com/video/6fb4f5_c145bd3dc1ba49258babc8d62bfb8aa3/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 20", url: "https://video.wixstatic.com/video/6fb4f5_dbec8fc648bd4aceb7d06b336c909e41/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 21", url: "https://video.wixstatic.com/video/6fb4f5_e37265fff7d847478d81dc87b97fcfc3/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 22", url: "https://video.wixstatic.com/video/6fb4f5_42c185f408dc4331a180bf66cf58fc6d/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 23", url: "https://video.wixstatic.com/video/6fb4f5_0697531af17c49d48eb92aae2de54aed/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 24", url: "https://video.wixstatic.com/video/6fb4f5_a791e1e9fc2a4ee9b2c325d6819b17c7/1080p/mp4/file.mp4?u=0&b=0" }
+        ]
+    },
+
+
 	{ //10
         id: 10,
         titulo: "Kusuriya no Hitorigoto 2",
