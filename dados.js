@@ -1,4 +1,158 @@
 const listaAnimes = [
+	{ //18
+        id: 18,
+        titulo: "Death Note",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1079/138100l.jpg",
+		nota: 8.62,
+        ano: 2006,
+        classificacao: "16+",
+        sinopse: "A história gira em torno de um prodigioso estudante do ensino médio chamado Light Yagami, que encontra um caderno sobrenatural chamado Death Note. O Death Note tem o poder de causar a morte de qualquer pessoa cujo nome seja escrito nele, desde que o escritor tenha o rosto da pessoa em mente. Light, inicialmente descrente do poder do Death Note, decide testá-lo e descobre que é real. Ele então se propõe a usar o Death Note para livrar o mundo do crime e criar uma utopia onde ele reina como um deus. No entanto, seus atos atraem a atenção de um prestigiado detetive conhecido apenas como L. Inicia-se então um intenso jogo mental entre Light e L, onde o objetivo é descobrir a identidade um do outro.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/G6QWD3EE6/death-note", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://video.wixstatic.com/video/90eeea_8b59b938b818437eaf10ed99daf2b980/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://video.wixstatic.com/video/90eeea_429ebf11236146be91a3b1875d7f36b3/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://video.wixstatic.com/video/90eeea_51e94c54501f47968304063ccc8c4ad6/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://video.wixstatic.com/video/90eeea_19fdb183b51d447cac2b6d3ddf7c6461/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://video.wixstatic.com/video/90eeea_adbcdc5a0b3340398ea14c4535720a73/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://video.wixstatic.com/video/90eeea_ae76f13806f84bf49a7bcec7e8d9c444/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://video.wixstatic.com/video/90eeea_0edefa4ef0fe4e1db2810adc5838fc01/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://video.wixstatic.com/video/90eeea_38cbdf43c83a4501acbf3cf8a0610efb/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://video.wixstatic.com/video/90eeea_8d838c7a27d245298b0427ae22eb4ab1/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://video.wixstatic.com/video/90eeea_4fb8d228c9b44f7280af4be92b26846d/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://video.wixstatic.com/video/90eeea_29642623df35437c8f60caaf128061bd/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://video.wixstatic.com/video/90eeea_583c1ade32fb4bd7acfe08e003a74bba/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 13", url: "https://video.wixstatic.com/video/90eeea_c58b0ac9eac445ee8805c26db158611a/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 14", url: "https://video.wixstatic.com/video/90eeea_9abfa2d9ba8a40e5a5e3006e8164625c/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 15", url: "https://video.wixstatic.com/video/90eeea_74727fb9cd2a4dda9842c5a78d88feb2/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 16", url: "https://video.wixstatic.com/video/90eeea_7762c544d6c64d5791978f6311749d19/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 17", url: "https://video.wixstatic.com/video/90eeea_8dcb069554664942ae8a9c30ecb05b5f/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 18", url: "https://video.wixstatic.com/video/90eeea_5b7cbe6fe7a241148b8c22fed90df6e7/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 19", url: "https://video.wixstatic.com/video/90eeea_21ba6943d648493ead9e63abb9977330/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 20", url: "https://video.wixstatic.com/video/90eeea_03f55052e4ad4987abd29018c773c826/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 21", url: "https://video.wixstatic.com/video/90eeea_a1964ec20e764e849137d226ea1ccc16/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 22", url: "https://video.wixstatic.com/video/90eeea_c9a29165773249fe9a1416b07b9c7797/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 23", url: "https://video.wixstatic.com/video/90eeea_2cb4b20d8d78478fa37aa07b1a5305b4/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 24", url: "https://video.wixstatic.com/video/90eeea_f7637cbefe6a4f94941679db7668d47a/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 25", url: "https://video.wixstatic.com/video/90eeea_bd5aafe6a3d348029fd1ca0b0f62eccb/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 26", url: "https://video.wixstatic.com/video/90eeea_93bdaa5f287d4802a159853878ccdd7a/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 27", url: "https://video.wixstatic.com/video/90eeea_a29813549e9042bea99c2393e5dcc07b/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 28", url: "https://video.wixstatic.com/video/90eeea_c0652940a9994116bea83e281c36507d/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 29", url: "https://video.wixstatic.com/video/90eeea_7448e57ddf1747e2b7ce287873ad273a/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 30", url: "https://video.wixstatic.com/video/90eeea_a797622a191f4dd7a77ed695086f93df/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 31", url: "https://video.wixstatic.com/video/90eeea_ae950534e1204447b2098811fc1fa64f/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 32", url: "https://video.wixstatic.com/video/90eeea_748e12ff8093452c91082952aa4c251d/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 33", url: "https://video.wixstatic.com/video/90eeea_3e833bbc12724133a6ca992a0f8e519c/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 34", url: "https://video.wixstatic.com/video/90eeea_992b74ed85874a0dbf79cb81b3b62e9c/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 35", url: "https://video.wixstatic.com/video/90eeea_72651f4b40ac45009e7f0c91e75f775e/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 36", url: "https://video.wixstatic.com/video/90eeea_aae11e10d57c450ba3ab36adc007806f/720p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 37", url: "https://video.wixstatic.com/video/90eeea_002b5be319f24c188b3bfea99677e892/720p/mp4/file.mp4?u=0&b=0" }
+        ]
+    },
+	
+	{ //17
+        id: 17,
+        titulo: "Chainsaw Man Movie: Reze-hen",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1763/150638l.jpg",
+		nota: 9.08,
+        ano: 2025,
+        classificacao: "18+",
+        sinopse: "Chainsaw Man Movie: Reze-hen dá continuidade direta aos eventos de Chainsaw Man, levando a história de Denji para um novo e decisivo capítulo. Agora como o Chainsaw Man, um garoto com o coração de um demônio e membro da Divisão Especial 4 dos caçadores de demônios, Denji tenta equilibrar sua rotina brutal com desejos simples de uma vida normal. Após um encontro com Makima, a mulher de seus sonhos, Denji se abriga da chuva e acaba conhecendo Reze, uma misteriosa garota que trabalha em um café. O que começa como um encontro casual logo se transforma em algo mais profundo — e perigoso.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GNVHKN92K/chainsaw-man--the-movie-reze-arc", // Link oficial
+        temporada: "Filme",
+        eps: [
+            { n: "Filme", url: "https://1a-1791.com/video/fwe2/8c/s8/2/e/w/t/O/ewtOz.aaa.mp4?u=0&b=0" }
+        ]
+    },
+	
+	{ //16
+        id: 16,
+        titulo: "Chainsaw Man",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1806/126216l.jpg",
+		nota: 8.43,
+        ano: 2022,
+        classificacao: "18+",
+        sinopse: "Denji é um adolescente que mora com Pochita, o Demônio da Motosserra. Por conta das dívidas que herdou de seu pai, ele vive na miséria, exterminando outros demônios com Pochita para pagar as contas. Até que, um dia, Denji é traído e morre. Em seus últimos momentos de consciência, ele firma um contrato com Pochita e renasce como o Homem-Motosserra - um humano com coração de demônio.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GVDHX8QNW/chainsaw-man", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/223526.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T003748Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=e347f56535d4e2bfdcdf87d442c25f2ef8340f1f0a59b944fd95227273058edf" },
+			{ n: "Episódio 02", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/224339.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004030Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c590dc0b6621703a1df9df906d3ebf063dc23669877bd55f29774b9540c89a58" },
+			{ n: "Episódio 03", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/224785.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4328bb52798b8281032f15c31831fe000ec4ab812877e50240630609ed3a61a7" },
+			{ n: "Episódio 04", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/225175.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004124Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=88c14d9d47fb90280c5fc72a316c4a3c62442bb8af552c76c6383f78e34e84c7" },
+			{ n: "Episódio 05", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/225574.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004152Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=7aea8323f47dd1cff7e7cd5e16359951f773106d0991c24bcdf0f879cb02e7e7" },
+			{ n: "Episódio 06", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/226100.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=8330950e0c670aec129c581e11565a3bc5807fe3975d2e6ca715233d9f6baa03" },
+			{ n: "Episódio 07", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/226457.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004243Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=19732d7e81528dad7439f8027c04a2fc04ca0f06c605e327c56ba793af821cd5" },
+			{ n: "Episódio 08", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/226815.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004305Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=cb08eb511ef4febfcef26a591782721b65043fc0a74cfeff30f547584de83b58" },
+			{ n: "Episódio 09", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/227429.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004325Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=531c5c880c38b2b56dae326cf6aeab996b7bd0a4701337a6d8be13615e77bc71" },
+			{ n: "Episódio 10", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/228402.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004348Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=5e1c3ced420107f0cd2689fc326fdd552e8252e7ac5f2f879d0b89aef4181c79" },
+			{ n: "Episódio 11", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/229326.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004421Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=cac38d3e90b3b343aa19b6dbe6bffb9448a0b23a4423165b588977181342e2e0" },
+			{ n: "Episódio 12", url: "https://283245d03fb5d2b05c3c011119526d8e.r2.cloudflarestorage.com/fful/230168.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=39fe6f99a633e0b6157aa0bce5b255b1%2F20260429%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260429T004443Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4ba0e513e24ae6a429a26b4f23f08dea276984a98fe413a452ad1df27a54d701" }
+        ]
+    },
+	
+	{ //15
+        id: 15,
+        titulo: "No Game No Life",
+		titulosAlt: [],
+        imagem: "https://myanimelist.net/images/anime/1074/111944l.jpg",
+		nota: 8.03,
+        ano: 2014,
+        classificacao: "12+",
+        sinopse: "A história segue Sora e Shiro, dois irmãos que são lendas no mundo dos jogos online. Eles são conhecidos como Blank, e são invencíveis em todos os jogos que jogam. Um dia, eles são transportados para um mundo alternativo, chamado Disboard, onde todos os conflitos são resolvidos através de jogos, e a humanidade é governada por dezessete seres conhecidos como Exceed. Sora e Shiro são desafiados a jogar jogos em nome da humanidade para lutar por sua sobrevivência neste mundo.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/G68V1JGD6/no-game-no-life", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://video.wixstatic.com/video/6fb4f5_ad732655c3b84e4a9fae21f94439ee3c/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://video.wixstatic.com/video/6fb4f5_92d0f7abf49a455bbe4eba569ac11eeb/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://video.wixstatic.com/video/6fb4f5_4a42a6dc21b740198b15ea6744a4a84f/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://video.wixstatic.com/video/6fb4f5_3b058c15b3304a6a96165838462b4cac/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://video.wixstatic.com/video/6fb4f5_e9c81b4a7aeb42968e6e1b398d062799/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://video.wixstatic.com/video/6fb4f5_233f060828f04f1780ddcb710c0cd194/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://video.wixstatic.com/video/6fb4f5_36c005f8bf1148c2b5633d2bc848bb33/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://video.wixstatic.com/video/6fb4f5_85148e69f8f74e47a4cc549a5376c49d/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://video.wixstatic.com/video/6fb4f5_c3252ed614a84a85b51004d93ea52ee6/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://video.wixstatic.com/video/6fb4f5_e806c5a17bf845f2a71f0eb4a0867851/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://video.wixstatic.com/video/6fb4f5_d82f02b7c1e3466db038a881fb503e99/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://video.wixstatic.com/video/6fb4f5_6663351f27eb45009d61fe65876f9253/1080p/mp4/file.mp4?u=0&b=0" }
+        ]
+    },
+	
+	{ //14
+        id: 14,
+        titulo: "Boku dake ga Inai Machi",
+		titulosAlt: ["Erased"],
+        imagem: "https://myanimelist.net/images/anime/10/77957l.jpg",
+		nota: 8.30,
+        ano: 2016,
+        classificacao: "16+",
+        sinopse: "A história segue Satoru Fujinuma, um jovem de 29 anos que possui a habilidade de viajar no tempo por alguns minutos para evitar acidentes e tragédias. Quando a mãe de Satoru é assassinada, ele se vê transportado de volta para 1988, quando era um estudante do ensino fundamental. Com a ajuda de sua habilidade de viajar no tempo, Satoru tenta impedir que a mãe seja assassinada novamente e encontrar o verdadeiro culpado pelo crime. No processo, ele descobre que o assassinato pode estar ligado a uma série de sequestros de crianças que ocorreram na mesma época em que ele voltou no tempo.",
+		streamingNome: "Crunchyroll", // Nome da plataforma
+        streamingUrl: "https://www.crunchyroll.com/pt-br/series/GYGG92K7Y/erased", // Link oficial
+        temporada: "Temporada 1",
+        eps: [
+            { n: "Episódio 01", url: "https://video.wixstatic.com/video/6fb4f5_4da87a323bbe46ddaf7a1bc1516fece1/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 02", url: "https://video.wixstatic.com/video/6fb4f5_d34bcc767b284fe5b5c3e22c5a6d7c15/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 03", url: "https://video.wixstatic.com/video/6fb4f5_bdddb2e2caa644c2a1c30a164bd67a50/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 04", url: "https://video.wixstatic.com/video/6fb4f5_cfca3592948644fab2319b0c76cfce4a/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 05", url: "https://video.wixstatic.com/video/6fb4f5_13afea1449084355b32e57643444fd26/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 06", url: "https://video.wixstatic.com/video/6fb4f5_f9b9384af8b44837b0fcc16f07f6ad71/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 07", url: "https://video.wixstatic.com/video/6fb4f5_6e627fcf4b4a4abfb0720019d316240f/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 08", url: "https://video.wixstatic.com/video/6fb4f5_2511a59f5d9c42a6a713f686eeb5d08b/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 09", url: "https://video.wixstatic.com/video/6fb4f5_9bcf7fd7397e4d60b07f155e7460b067/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 10", url: "https://video.wixstatic.com/video/6fb4f5_4677c437a5c84d2a907930f8128872f6/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 11", url: "https://video.wixstatic.com/video/6fb4f5_c16d3e76df504359828715eb8d3a45c4/1080p/mp4/file.mp4?u=0&b=0" },
+			{ n: "Episódio 12", url: "https://video.wixstatic.com/video/6fb4f5_4eb9995a080d44dc80bba0e011651178/1080p/mp4/file.mp4?u=0&b=0" }
+        ]
+    },
+	
 	{ //13
         id: 13,
         titulo: "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
@@ -105,7 +259,6 @@ const listaAnimes = [
 			{ n: "Episódio 24", url: "https://video.wixstatic.com/video/6fb4f5_a791e1e9fc2a4ee9b2c325d6819b17c7/1080p/mp4/file.mp4?u=0&b=0" }
         ]
     },
-
 
 	{ //10
         id: 10,
